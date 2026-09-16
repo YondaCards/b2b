@@ -27,7 +27,7 @@ export function Hero({ locale, content }: { locale: Locale; content: SiteContent
               {content.hero.ctaPrimary}
             </Link>
             <Link
-              href={`/${locale}#cases`}
+              href={`/${locale}#think`}
               className="focus-ring rounded-full border border-ink/20 px-6 py-3.5 text-[15px] font-semibold text-ink transition-colors hover:border-ink/40"
             >
               {content.hero.ctaSecondary}
