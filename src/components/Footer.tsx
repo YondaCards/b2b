@@ -12,6 +12,17 @@ export function Footer({ locale, content }: { locale: Locale; content: SiteConte
             Yonda<span className="text-cream/70">.</span>
           </Link>
           <p className="mt-3 text-[15px] leading-relaxed text-cream/80">{content.footer.tagline}</p>
+          <p className="mt-4 text-sm leading-relaxed text-cream/70">
+            {content.footer.b2cLine.text}{" "}
+            <a
+              href={content.footer.b2cLine.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="focus-ring font-medium underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
+            >
+              {content.footer.b2cLine.linkLabel}
+            </a>
+          </p>
         </div>
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3 text-[15px]">

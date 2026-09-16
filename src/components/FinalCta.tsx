@@ -15,10 +15,6 @@ export function FinalCta({ content }: { content: SiteContent }) {
         </h2>
         <p className="mt-5 text-[17px] leading-relaxed text-cream/80">{content.finalCta.body}</p>
 
-        <p className="mt-6 inline-block rounded-full bg-rust/20 px-4 py-2 text-sm font-medium text-rust-light">
-          {content.finalCta.offer}
-        </p>
-
         <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="https://t.me/vnetta"
@@ -27,14 +23,6 @@ export function FinalCta({ content }: { content: SiteContent }) {
             className="focus-ring rounded-full bg-rust px-6 py-3.5 text-[15px] font-semibold text-cream transition-transform hover:-translate-y-0.5 hover:bg-rust-dark"
           >
             {content.finalCta.ctaTelegram}
-          </a>
-          <a
-            href="https://instagram.com/yondacards"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="focus-ring rounded-full border border-cream/30 px-6 py-3.5 text-[15px] font-semibold text-cream transition-colors hover:border-cream/60"
-          >
-            {content.finalCta.ctaInstagram}
           </a>
         </div>
       </Container>
