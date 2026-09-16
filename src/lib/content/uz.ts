@@ -2,9 +2,9 @@ import type { SiteContent } from "./types";
 
 export const uz: SiteContent = {
   meta: {
-    title: "Yonda Cards — brend xarakterini davom ettiruvchi jismoniy tashuvchilar",
+    title: "Yonda — kalitga tayyor korporativ sovg'alar",
     description:
-      "Otkritkalar, merch, qadoqlash va sovg'alar: g'oyadan ishlab chiqarishgacha. Yonda Cards brendlarni ushlab ko'rish mumkin bo'lgan narsaga aylantiradi.",
+      "Biz brendlar uchun korporativ sovg'alar yaratamiz — g'oyadan tayyor mahsulotgacha. Barchasini bizga to'liq ishonib topshirishingiz mumkin, yoki faqat sizga hozir yetishmayotgan bitta bosqichni buyurtma qilishingiz mumkin.",
   },
   nav: {
     about: "Biz haqimizda",
@@ -317,7 +317,7 @@ export const uz: SiteContent = {
     ctaTelegram: "Telegram'da yozish",
   },
   footer: {
-    tagline: "Brend xarakterini davom ettiruvchi jismoniy tashuvchilar.",
+    tagline: "Brend xarakterini davom ettiruvchi korporativ sovg'alar.",
     instagramLabel: "Instagram",
     telegramLabel: "Telegram",
     rights: "Yonda",

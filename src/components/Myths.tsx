@@ -24,8 +24,10 @@ export function Myths({ content }: { content: SiteContent }) {
                 <button
                   key={item}
                   type="button"
+                  id={`myth-tab-${i}`}
                   role="tab"
                   aria-selected={active === i}
+                  aria-controls="myth-panel"
                   onMouseEnter={() => setActive(i)}
                   onFocus={() => setActive(i)}
                   onClick={() => setActive(i)}
@@ -40,7 +42,12 @@ export function Myths({ content }: { content: SiteContent }) {
               ))}
             </div>
 
-            <div className="rounded-b-2xl rounded-tr-2xl border border-line bg-cream px-6 py-6">
+            <div
+              role="tabpanel"
+              id="myth-panel"
+              aria-labelledby={`myth-tab-${active}`}
+              className="rounded-b-2xl rounded-tr-2xl border border-line bg-cream px-6 py-6"
+            >
               <p className="text-[17px] leading-relaxed text-ink">
                 <span className="mr-2 text-rust">✕</span>
                 {content.myths.items[active]}

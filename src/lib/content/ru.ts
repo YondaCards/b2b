@@ -2,9 +2,9 @@ import type { SiteContent } from "./types";
 
 export const ru: SiteContent = {
   meta: {
-    title: "Yonda Cards — физические носители, которые продолжают характер бренда",
+    title: "Yonda — корпоративные подарки под ключ",
     description:
-      "Открытки, мерч, упаковка и подарки под ключ: от идеи и дизайна до производства. Yonda Cards делает бренды осязаемыми.",
+      "Мы делаем корпоративные подарки для брендов — от идеи до готового изделия. Можно доверить нам всё сразу, а можно заказать только один этап: то, чего вам сейчас не хватает.",
   },
   nav: {
     about: "О нас",
@@ -317,7 +317,7 @@ export const ru: SiteContent = {
     ctaTelegram: "Написать в Telegram",
   },
   footer: {
-    tagline: "Физические носители, которые продолжают характер бренда.",
+    tagline: "Корпоративные подарки, которые продолжают характер бренда.",
     instagramLabel: "Instagram",
     telegramLabel: "Telegram",
     rights: "Yonda",
