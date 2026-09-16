@@ -10,7 +10,7 @@ const script = Marck_Script({
 
 export function Reveal({ content }: { content: SiteContent }) {
   return (
-    <section id="services" className="bg-rust py-20 text-cream sm:py-28">
+    <section className="bg-rust py-20 text-cream sm:py-28">
       <Container className="grid grid-cols-1 gap-14 lg:grid-cols-[1fr_0.85fr] lg:items-start">
         <div>
           <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">

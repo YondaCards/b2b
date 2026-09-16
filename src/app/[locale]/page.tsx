@@ -2,13 +2,11 @@ import { isLocale, locales, type Locale } from "@/lib/i18n/locales";
 import { getContent } from "@/lib/content";
 import { notFound } from "next/navigation";
 import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
 import { Myths } from "@/components/Myths";
 import { Reveal } from "@/components/Reveal";
-import { Process3 } from "@/components/Process3";
-import { Services } from "@/components/Services";
-import { ServicesExtra } from "@/components/ServicesExtra";
+import { PackageSection } from "@/components/PackageSection";
 import { CasesPreview } from "@/components/CasesPreview";
-import { Process5 } from "@/components/Process5";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCta } from "@/components/FinalCta";
 
@@ -25,13 +23,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <Hero locale={locale} content={content} />
+      <About content={content} />
       <Myths content={content} />
       <Reveal content={content} />
-      <Process3 content={content} />
-      <Services content={content} />
-      <ServicesExtra content={content} />
+      <PackageSection id="think" pkg={content.packages.think} />
+      <PackageSection id="design" pkg={content.packages.design} />
+      <PackageSection id="make" pkg={content.packages.make} />
       <CasesPreview locale={locale} content={content} />
-      <Process5 content={content} />
       <Testimonials content={content} />
       <FinalCta content={content} />
     </>
