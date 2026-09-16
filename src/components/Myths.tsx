@@ -19,7 +19,7 @@ export function Myths({ content }: { content: SiteContent }) {
           </div>
 
           <div>
-            <div role="tablist" className="flex flex-wrap gap-1.5">
+            <div role="tablist" className="flex items-end">
               {content.myths.items.map((item, i) => (
                 <button
                   key={item}
@@ -31,10 +31,11 @@ export function Myths({ content }: { content: SiteContent }) {
                   onMouseEnter={() => setActive(i)}
                   onFocus={() => setActive(i)}
                   onClick={() => setActive(i)}
-                  className={`focus-ring rounded-t-xl border border-b-0 px-4 py-2.5 text-sm font-medium transition-colors ${
+                  style={{ marginLeft: i === 0 ? 0 : "-0.6rem" }}
+                  className={`focus-ring relative rounded-t-2xl border border-b-0 border-line px-5 py-3 font-display text-sm font-bold transition-all duration-200 ${
                     active === i
-                      ? "border-line bg-cream text-ink"
-                      : "border-transparent bg-cream/40 text-ink-soft hover:bg-cream/70"
+                      ? "z-10 -translate-y-1.5 bg-cream text-ink shadow-[0_-6px_14px_-6px_rgba(58,36,28,0.2)]"
+                      : "bg-rust text-cream/85 hover:-translate-y-0.5 hover:bg-rust-dark"
                   }`}
                 >
                   {`0${i + 1}`}
@@ -46,7 +47,7 @@ export function Myths({ content }: { content: SiteContent }) {
               role="tabpanel"
               id="myth-panel"
               aria-labelledby={`myth-tab-${active}`}
-              className="rounded-b-2xl rounded-tr-2xl border border-line bg-cream px-6 py-6"
+              className="relative z-10 rounded-b-2xl rounded-tr-2xl border border-line bg-cream px-6 py-6"
             >
               <p className="text-[17px] leading-relaxed text-ink">
                 <span className="mr-2 text-rust">✕</span>
