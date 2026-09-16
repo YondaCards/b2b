@@ -38,7 +38,6 @@ export function Hero({ locale, content }: { locale: Locale; content: SiteContent
         <div className="relative mx-auto hidden h-[420px] w-full max-w-md sm:block">
           <BrandStamp
             size={110}
-            color="var(--rust)"
             className="absolute -right-2 -top-2 z-10 opacity-90"
           />
 

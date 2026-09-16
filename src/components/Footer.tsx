@@ -33,7 +33,7 @@ export function Footer({ locale, content }: { locale: Locale; content: SiteConte
           </a>
         </div>
 
-        <BrandStamp size={92} color="var(--cream)" className="hidden shrink-0 opacity-90 md:block" />
+        <BrandStamp size={92} className="hidden shrink-0 opacity-90 md:block" />
       </div>
       <div className="border-t border-cream/15 px-5 py-4 text-center text-xs text-cream/60 sm:px-8">
         © {new Date().getFullYear()} {content.footer.rights}

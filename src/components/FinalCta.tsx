@@ -7,7 +7,6 @@ export function FinalCta({ content }: { content: SiteContent }) {
     <section id="contact" className="relative overflow-hidden bg-ink py-20 text-cream sm:py-28">
       <BrandStamp
         size={220}
-        color="var(--rust-light)"
         className="pointer-events-none absolute -bottom-16 -right-16 opacity-25"
       />
       <Container className="relative max-w-2xl">
