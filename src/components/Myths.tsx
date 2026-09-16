@@ -1,7 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import type { SiteContent } from "@/lib/content/types";
 import { Container } from "./Container";
 
 export function Myths({ content }: { content: SiteContent }) {
+  const [active, setActive] = useState(0);
+
   return (
     <section className="bg-paper py-20 sm:py-28">
       <Container>
@@ -14,17 +19,33 @@ export function Myths({ content }: { content: SiteContent }) {
           </div>
 
           <div>
-            <ul className="space-y-3">
-              {content.myths.items.map((item) => (
-                <li
+            <div role="tablist" className="flex flex-wrap gap-1.5">
+              {content.myths.items.map((item, i) => (
+                <button
                   key={item}
-                  className="rounded-2xl border border-line bg-cream/60 px-5 py-4 text-[15px] text-ink-soft"
+                  type="button"
+                  role="tab"
+                  aria-selected={active === i}
+                  onMouseEnter={() => setActive(i)}
+                  onFocus={() => setActive(i)}
+                  onClick={() => setActive(i)}
+                  className={`focus-ring rounded-t-xl border border-b-0 px-4 py-2.5 text-sm font-medium transition-colors ${
+                    active === i
+                      ? "border-line bg-cream text-ink"
+                      : "border-transparent bg-cream/40 text-ink-soft hover:bg-cream/70"
+                  }`}
                 >
-                  <span className="mr-2 text-rust">✕</span>
-                  {item}
-                </li>
+                  {`0${i + 1}`}
+                </button>
               ))}
-            </ul>
+            </div>
+
+            <div className="rounded-b-2xl rounded-tr-2xl border border-line bg-cream px-6 py-6">
+              <p className="text-[17px] leading-relaxed text-ink">
+                <span className="mr-2 text-rust">✕</span>
+                {content.myths.items[active]}
+              </p>
+            </div>
 
             <div className="mt-8 border-t border-line pt-8">
               <p className="font-display text-xl font-semibold text-ink sm:text-2xl">{content.myths.standout}</p>
