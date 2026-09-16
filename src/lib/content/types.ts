@@ -23,17 +23,39 @@ export type CaseStudy = {
   testimonial?: Testimonial;
 };
 
+export type PackageTier = {
+  name: string;
+  subtitle: string;
+  description?: string;
+  priceFrom: string;
+  note?: string;
+};
+
+export type PackageContent = {
+  number: string;
+  label: string;
+  tagline: string;
+  includedHeading: string;
+  includedItems: string[];
+  tiers: PackageTier[];
+};
+
 export type SiteContent = {
   meta: {
     title: string;
     description: string;
   };
   nav: {
+    about: string;
     services: string;
     cases: string;
-    process: string;
     contact: string;
     cta: string;
+  };
+  instagramUrl: string;
+  about: {
+    heading: string;
+    paragraphs: string[];
   };
   hero: {
     kicker: string;
@@ -42,6 +64,7 @@ export type SiteContent = {
     body: string;
     ctaPrimary: string;
     ctaSecondary: string;
+    stages: { number: string; label: string; href: string }[];
   };
   myths: {
     heading: string;
@@ -57,17 +80,10 @@ export type SiteContent = {
     quoteAttribution: string;
     philosophy: string;
   };
-  process3: {
-    heading: string;
-    steps: { number: string; title: string; body: string }[];
-  };
-  services: {
-    heading: string;
-    items: { title: string; body: string }[];
-  };
-  servicesExtra: {
-    heading: string;
-    items: string[];
+  packages: {
+    think: PackageContent;
+    design: PackageContent;
+    make: PackageContent;
   };
   casesSection: {
     heading: string;
@@ -76,25 +92,20 @@ export type SiteContent = {
     viewAll: string;
   };
   cases: CaseStudy[];
-  process5: {
-    heading: string;
-    steps: { title: string; body: string }[];
-  };
   testimonialsSection: {
     heading: string;
   };
   finalCta: {
     heading: string;
     body: string;
-    offer: string;
     ctaTelegram: string;
-    ctaInstagram: string;
   };
   footer: {
     tagline: string;
     instagramLabel: string;
     telegramLabel: string;
     rights: string;
+    b2cLine: { text: string; linkLabel: string; href: string };
   };
   caseDetail: {
     back: string;
