@@ -53,9 +53,6 @@ export const uz: SiteContent = {
   reveal: {
     heading: "Yonda — brend nomidan gapiradigan sovg'alar haqida",
     body: "Biz ishonamizki, korporativ sovg'a — bu byudjetdagi belgi emas, balki brend bilan aloqa tajribasining bir qismi. Otkritka, qadoq, merch, kitob yoki sovg'a to'plami reklamadan ko'ra ko'proq brend haqida gapirishi mumkin.",
-    quote:
-      "«…aslida biz gullarni emas, sevgini tan olishning eng yaxshi usulini sotamiz…»",
-    quoteAttribution: "mijozlarimizdan biri biz u uchun qilgan ishni shunday ta'rifladi",
     philosophy: "Shunchaki maketni chop etish yetarli emas. Shuning uchun biz intervyudan boshlaymiz, brendning ma'no va qadriyatlariga chuqur kiramiz — va faqat shundan keyin nima qilishni hal qilamiz. Bu jarayonni bizga to'liq ishonib topshirish ham, faqat hozir sizga kerak bo'lgan bosqichni olish ham mumkin: o'ylab topish (THINK), dizayn qilish (DESIGN) yoki ishlab chiqarish (MAKE).",
   },
   casesSection: {

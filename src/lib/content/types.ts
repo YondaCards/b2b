@@ -76,8 +76,6 @@ export type SiteContent = {
   reveal: {
     heading: string;
     body: string;
-    quote: string;
-    quoteAttribution: string;
     philosophy: string;
   };
   packages: {
