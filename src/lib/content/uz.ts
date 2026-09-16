@@ -7,94 +7,56 @@ export const uz: SiteContent = {
       "Otkritkalar, merch, qadoqlash va sovg'alar: g'oyadan ishlab chiqarishgacha. Yonda Cards brendlarni ushlab ko'rish mumkin bo'lgan narsaga aylantiradi.",
   },
   nav: {
+    about: "Biz haqimizda",
     services: "Xizmatlar",
     cases: "Keyslar",
-    process: "Jarayon",
     contact: "Aloqa",
     cta: "Loyihani muhokama qilish",
   },
+  instagramUrl: "https://www.instagram.com/yondacards/",
+  about: {
+    heading: "Biz haqimizda",
+    paragraphs: [
+      "Yonda — qo'lda ushlab bo'ladigan mualliflik sovg'alari va xotiralar brendi. Biz shaxsiy hikoyalarni saqlaydigan noyob albomlar, qo'lda chizilgan illyustratsiyali otkritkalar va muhim lahzalarni saqlash uchun yaratilgan boshqa narsalarni yaratamiz.",
+      "Bugungi kunda bizning tayyor kolleksiyalarimiz shahar bo'ylab 10 ta oflayn nuqtada taqdim etilgan, mavzuli albomlarni esa g'oyadan tayyor mahsulotgacha kalitga tayyor holda ishlab chiqamiz.",
+      "Ish davomida biz nafaqat sovg'alarni chiroyli bezashni, balki g'oyalarni o'ylab topishni, ular uchun mos shaklni topishni va oddiy narsalarni hissiy tajribaga aylantirishni o'rgandik.",
+      "Va endi biz bu ijodkorlikni biznes tomon yo'naltirishga tayyormiz. Biz faqat logotip joylashtirmaydigan, balki brendingizning xarakteri, qadriyatlari va g'oyasini yetkazadigan merch, sovg'alar, poligrafiya va boshqa brendlangan formatlarni yaratamiz.",
+      "Yonda biznesga saqlab qolgisi keladigan narsalarni yaratishda yordam beradi.",
+    ],
+  },
   hero: {
-    kicker: "Yonda Cards by nett.ko",
-    headline: "Mijozingiz har kuni o'nlab brendlarni ko'radi.",
-    highlight: "Aynan sizni qanday eslab qolishsin?",
-    body: "Biz jismoniy tashuvchilar yaratamiz — otkritkalar, merch, qadoqlash va sovg'alar — ular brend xarakterini haqiqiy odam qo'lida davom ettiradi.",
+    kicker: "Kalitga tayyor korporativ sovg'alar",
+    headline: "Bitta pudratchi — istalgan bosqich yoki butun yo'l uchun.",
+    highlight: "O'ylab topamiz. Dizayn qilamiz. Ishlab chiqaramiz.",
+    body: "Biz brendlar uchun korporativ sovg'alar yaratamiz — g'oyadan tayyor mahsulotgacha. Barchasini bizga to'liq ishonib topshirishingiz mumkin, yoki faqat sizga hozir yetishmayotgan bitta bosqichni buyurtma qilishingiz mumkin.",
     ctaPrimary: "Loyihani muhokama qilish",
-    ctaSecondary: "Keyslarni ko'rish",
+    ctaSecondary: "Paketlarni ko'rish",
+    stages: [
+      { number: "01", label: "THINK — G'oya", href: "#think" },
+      { number: "02", label: "DESIGN — Vizual", href: "#design" },
+      { number: "03", label: "MAKE — Ishlab chiqarish", href: "#make" },
+    ],
   },
   myths: {
-    heading: "Odatda brend allaqachon ishlamayotgan narsani sinab ko'radi",
-    intro:
-      "Logotipni kattaroq qilish, faqat firma ranglaridan foydalanish, kontekstsiz «yorqin emotsiya», chegirma uchun chegirma. Muammo bu yomonligida emas — muammo shundaki, buni hamma qiladi.",
+    heading: "Odatda korporativ sovg'a shunday tanlanadi",
+    intro: "Muammo bu yomonligida emas — muammo shundaki, buni hamma qiladi va sovg'ani hech kim eslab qolmaydi.",
     items: [
-      "«Kreativlarda logotipni kattaroq qiling»",
-      "«Faqat firma ranglaridan foydalaning»",
-      "«Yorqin emotsiya uyg'otish kerak»",
-      "«Keling, matnni katta va qizil qilamiz»",
-      "«Shunchaki chegirma qo'shamiz»",
+      "«Shunchaki brendlangan ruchka buyurtma qilamiz»",
+      "«O'tgan yilgidek narsani olamiz»",
+      "«Asosiysi — logotip bo'lsin»",
+      "«Byudjet g'oyadan muhimroq»",
+      "«Sovg'a — arzimas narsa, oxirgi paytda hal qilamiz»",
     ],
-    standout: "Haqiqatan ham ajralib turishning faqat bitta yo'li bor.",
-    reveal: "Odamlarga qo'lda ushlab ko'rish mumkin bo'lgan narsa berish.",
+    standout: "Sovg'ani chindan ham eslab qolishning faqat bitta yo'li bor.",
+    reveal: "Uni formal narsa sifatida emas, balki brend tajribasining bir qismi sifatida ko'rish.",
   },
   reveal: {
-    heading: "Yonda — qo'lda ushlab ko'rish mumkin bo'lgan g'oyalar haqida.",
-    body: "Biz ishonamizki, raqamli brendning hali ham jismoniy davomi bo'lishi mumkin. Otkritka, qadoqlash, kartochka, stiker, albom yoki sovg'a to'plami — shunchaki logotip tashuvchisi emas, balki brend bilan o'zaro aloqa tajribasining bir qismi.",
+    heading: "Yonda — brend nomidan gapiradigan sovg'alar haqida",
+    body: "Biz ishonamizki, korporativ sovg'a — bu byudjetdagi belgi emas, balki brend bilan aloqa tajribasining bir qismi. Otkritka, qadoq, merch, kitob yoki sovg'a to'plami reklamadan ko'ra ko'proq brend haqida gapirishi mumkin.",
     quote:
       "«…aslida biz gullarni emas, sevgini tan olishning eng yaxshi usulini sotamiz…»",
     quoteAttribution: "mijozlarimizdan biri biz u uchun qilgan ishni shunday ta'rifladi",
-    philosophy:
-      "Shunchaki maketni chop etish yetarli emas. Shuning uchun avval siz bilan intervyu o'tkazamiz, brendning ma'nosi va qadriyatlariga chuqur kiramiz — va faqat shundan keyin haqiqatan ham unga tegishli narsa yaratamiz.",
-  },
-  process3: {
-    heading: "Biz uchta narsani birlashtiramiz",
-    steps: [
-      {
-        number: "01",
-        title: "G'oya",
-        body: "Brend xarakteriga mos kontseptsiyani topamiz.",
-      },
-      {
-        number: "02",
-        title: "Dizayn",
-        body: "Vizual til va tashuvchilar tizimini yaratamiz.",
-      },
-      {
-        number: "03",
-        title: "Ishlab chiqarish",
-        body: "Amalga oshirishni o'z zimmamizga olamiz — qog'ozdan bosib chiqarishgacha, tayyor mahsulotgacha.",
-      },
-    ],
-  },
-  services: {
-    heading: "Biz nima qila olamiz",
-    items: [
-      {
-        title: "Kontseptsiya",
-        body: "So'rovingiz bo'yicha kreativ illyustratsiya yoki dizayn chizamiz, uni kerakli tashuvchilaringizga moslashtiramiz.",
-      },
-      {
-        title: "Otkritkalar",
-        body: "Brendingiz uchun otkritkalar seriyasini yaratamiz — buyurtmaga bonus, hamkorlarga sovg'a yoki assortimentdagi qo'shimcha mahsulot sifatida.",
-      },
-      {
-        title: "Merch",
-        body: "Kartochka, bloknot yoki shoperdan tortib futbolka, stiker va krujkagacha — istalgan turdagi merchni yaratamiz.",
-      },
-      {
-        title: "Kitob va albomlar",
-        body: "Xodimlaringiz va mijozlaringiz uchun brendni eslatib turadigan va his-tuyg'u uyg'otadigan haqiqiy kitob yoki albomlar tayyorlaymiz.",
-      },
-    ],
-  },
-  servicesExtra: {
-    heading: "Yana nima qila olamiz?",
-    items: [
-      "illyustratsiyalar chizish",
-      "ishlab chiqarishda yordam berish",
-      "tashuvchilarni tanlash",
-      "matn yozish",
-      "g'oyadan ishga tushirishgacha siz bilan aloqada bo'lish",
-      "hammasini «kalit topshirish» tarzida yig'ish",
-    ],
+    philosophy: "Shunchaki maketni chop etish yetarli emas. Shuning uchun biz intervyudan boshlaymiz, brendning ma'no va qadriyatlariga chuqur kiramiz — va faqat shundan keyin nima qilishni hal qilamiz. Bu jarayonni bizga to'liq ishonib topshirish ham, faqat hozir sizga kerak bo'lgan bosqichni olish ham mumkin: o'ylab topish (THINK), dizayn qilish (DESIGN) yoki ishlab chiqarish (MAKE).",
   },
   casesSection: {
     heading: "Bizning keyslarimiz",
@@ -257,46 +219,113 @@ export const uz: SiteContent = {
       },
     },
   ],
-  process5: {
-    heading: "Biz bilan ishlash jarayoni qanday ko'rinadi",
-    steps: [
-      {
-        title: "Chuqurlashamiz",
-        body: "Siz bilan uchrashuv, brifing, intervyu o'tkazamiz — brendingiz, qadriyatlaringiz va nimani ko'rishni xohlashingiz haqida iloji boricha ko'proq bilib olamiz.",
-      },
-      {
-        title: "O'ylab topamiz",
-        body: "Brifingdan so'ng so'rovingiz bo'yicha 2 dan 4 tagacha kreativ kontseptsiya taqdim etamiz.",
-      },
-      {
-        title: "Yaratamiz",
-        body: "Kelishilgan g'oyani ishlab chiqamiz, uni chuqurlik va tafsilotlar bilan to'ldiramiz — sizga yakuniy variantni ko'rsatish uchun.",
-      },
-      {
-        title: "Ishlab chiqaramiz",
-        body: "Materiallar, texnologiya, formatni tanlaymiz va ishlab chiqarishni tashkil qilamiz.",
-      },
-      {
-        title: "Topshiramiz",
-        body: "Tayyor jismoniy mahsulotni olasiz — uni kampaniyada ishlatish, mijozga sovg'a qilish yoki brend tajribasining bir qismi sifatida saqlab qolish mumkin.",
-      },
-    ],
+  packages: {
+    think: {
+      number: "01",
+      label: "G'oya",
+      tagline: "Nima va nima uchun sovg'a qilishni o'ylab topamiz.",
+      includedHeading: "Barcha paketlarda:",
+      includedItems: [
+        "intervyu",
+        "brend bilan tanishish",
+        "uning xarakteri, qadriyatlari va auditoriyasiga chuqur kirish",
+        "vazifa, sabab va qabul qiluvchini tahlil qilish",
+        "ijodiy qidiruv",
+        "ishlab chiqilgan kontseptsiyalarni taqdim etish",
+      ],
+      tiers: [
+        {
+          name: "THINK S",
+          subtitle: "1 kontseptsiya · 1 tahrir doirasi",
+          description: "Mijoz bitta kuchli ijodiy yechimga ishonishni xohlasa mos keladi. Natija: mexanika, tarkibi va mumkin bo'lgan formatlari tavsiflangan bitta puxta ishlab chiqilgan korporativ sovg'a g'oyasi.",
+          priceFrom: "1 000 000 so'mdan",
+        },
+        {
+          name: "THINK M",
+          subtitle: "3 kontseptsiya · 2 tahrir doirasi",
+          description: "Bitta vazifaga turli yondashuvlarni solishtirmoqchi bo'lgan mijoz uchun. Natija: uchta mustaqil korporativ sovg'a kontseptsiyasi → bittasini tanlash → uni ishlab chiqish.",
+          priceFrom: "3 000 000 so'mdan",
+        },
+        {
+          name: "THINK L",
+          subtitle: "5 kontseptsiya · 3 tahrir doirasi",
+          description: "Ko'proq variantlarni o'rganish va nostandart yechim topish kerak bo'lgan murakkab vazifalar uchun. Natija: beshta mustaqil kontseptual yo'nalish → bittasini tanlash → uni keyingi ishlab chiqish.",
+          priceFrom: "6 000 000 so'mdan",
+        },
+      ],
+    },
+    design: {
+      number: "02",
+      label: "Vizual",
+      tagline: "G'oyani aniq dizaynga aylantiramiz.",
+      includedHeading: "Barcha paketlarda:",
+      includedItems: [
+        "tayyor kontseptsiya bilan tanishish",
+        "qisqa brif",
+        "vizual yo'nalishni belgilash",
+        "dizaynni ishlab chiqish",
+        "maketlarni ishlab chiqarishga tayyorlash",
+      ],
+      tiers: [
+        {
+          name: "DESIGN S",
+          subtitle: "1–3 format · 1 tahrir doirasi",
+          description: "Kichik sovg'a yechimi uchun. Masalan: otkritka + qadoq + stikerpak.",
+          priceFrom: "2 500 000 so'mdan",
+        },
+        {
+          name: "DESIGN M",
+          subtitle: "4–6 format · 2 tahrir doirasi",
+          description: "To'liq sovg'a to'plami uchun. Masalan: quti + otkritka + kundalik + shoper + stikerpak.",
+          priceFrom: "4 500 000 so'mdan",
+        },
+        {
+          name: "DESIGN L",
+          subtitle: "7–10 format · 3 tahrir doirasi",
+          description: "Butun bir vizual tizim yaratish kerak bo'lgan murakkab korporativ loyihalar uchun.",
+          priceFrom: "7 000 000 so'mdan",
+        },
+      ],
+    },
+    make: {
+      number: "03",
+      label: "Ishlab chiqarish",
+      tagline: "G'oyani tayyor sovg'aga aylantiramiz.",
+      includedHeading: "Barcha paketlarda:",
+      includedItems: [
+        "material va texnologiyalarni tanlash",
+        "pudratchilarni qidirish",
+        "ishlab chiqarish hisob-kitobi",
+        "kommunikatsiya",
+        "zarur bo'lsa namunalarni buyurtma qilish",
+        "ishlab chiqarishni nazorat qilish",
+        "tayyor buyurtmani topshirish",
+      ],
+      tiers: [
+        { name: "MAKE S", subtitle: "1–3 format", priceFrom: "2 000 000 so'mdan", note: "+ ishlab chiqarish" },
+        { name: "MAKE M", subtitle: "4–6 format", priceFrom: "3 500 000 so'mdan", note: "+ ishlab chiqarish" },
+        { name: "MAKE L", subtitle: "7–10 format", priceFrom: "5 000 000 so'mdan", note: "+ ishlab chiqarish" },
+      ],
+    },
   },
   testimonialsSection: {
     heading: "Biz bilan ishlaganlar nima deydi",
   },
   finalCta: {
-    heading: "Agar bizga yozishga sha-a-a-unchalik yaqin bo'lsangiz",
-    body: "Bizga yaqinlashib kelayotgan kampaniya, ishga tushirish yoki tadbir haqida gapirib bering — uni jismoniy ob'ektga qanday aylantirishni taklif qilamiz.",
-    offer: "Birinchi hamkorlik uchun kontseptsiya ishlab chiqish — sovg'a sifatida.",
-    ctaTelegram: "Telegram'ga yozish",
-    ctaInstagram: "Instagram'ga yozish",
+    heading: "Raqobatchilar logotipli ruchka ulashayotganda — esda qoladigan narsa sovg'a qiling",
+    body: "Bir oydan keyin navbatdagi kundalikni hech kim eslamaydi. Bizga brend va sabab haqida yozing — qayerdan boshlashni ko'rsatamiz: g'oya, dizayn yoki to'liq ishlab chiqarish.",
+    ctaTelegram: "Telegram'da yozish",
   },
   footer: {
     tagline: "Brend xarakterini davom ettiruvchi jismoniy tashuvchilar.",
     instagramLabel: "Instagram",
     telegramLabel: "Telegram",
-    rights: "Yonda Cards by nett.ko",
+    rights: "Yonda",
+    b2cLine: {
+      text: "O'zingiz uchun sovg'a izlayapsizmi? Otkritkalar, kundaliklar va albomlar — bizning Instagram'da",
+      linkLabel: "Instagram",
+      href: "https://www.instagram.com/yondacards/",
+    },
   },
   caseDetail: {
     back: "Barcha keyslar",
