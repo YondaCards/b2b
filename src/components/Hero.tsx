@@ -33,6 +33,18 @@ export function Hero({ locale, content }: { locale: Locale; content: SiteContent
               {content.hero.ctaSecondary}
             </Link>
           </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            {content.hero.stages.map((stage) => (
+              <Link
+                key={stage.href}
+                href={`/${locale}${stage.href}`}
+                className="focus-ring rounded-full border border-ink/15 px-4 py-2 text-sm font-medium text-ink-soft transition-colors hover:border-rust hover:text-rust"
+              >
+                <span className="font-display font-bold text-rust">{stage.number}</span> {stage.label}
+              </Link>
+            ))}
+          </div>
         </div>
 
         <div className="relative mx-auto hidden h-[420px] w-full max-w-md sm:block">
