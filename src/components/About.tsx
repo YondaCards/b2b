@@ -13,6 +13,14 @@ export function About({ content }: { content: SiteContent }) {
             <p key={i}>{paragraph}</p>
           ))}
         </div>
+        <a
+          href={content.instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="focus-ring mt-8 inline-block rounded-full bg-rust px-6 py-3.5 text-[15px] font-semibold text-cream shadow-[0_10px_24px_-8px_rgba(198,81,46,0.55)] transition-transform hover:-translate-y-0.5 hover:bg-rust-dark"
+        >
+          {content.about.instagramCta}
+        </a>
       </Container>
     </section>
   );

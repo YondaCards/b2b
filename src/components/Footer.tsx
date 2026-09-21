@@ -2,14 +2,15 @@ import Link from "next/link";
 import type { Locale } from "@/lib/i18n/locales";
 import type { SiteContent } from "@/lib/content/types";
 import { BrandStamp } from "./BrandStamp";
+import { LogoHorizontal } from "./LogoHorizontal";
 
 export function Footer({ locale, content }: { locale: Locale; content: SiteContent }) {
   return (
     <footer className="border-t border-line bg-rust text-cream">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-14 sm:px-8 md:flex-row md:items-end md:justify-between">
         <div className="max-w-sm">
-          <Link href={`/${locale}`} className="focus-ring font-display text-xl font-bold">
-            Yonda<span className="text-cream/70">.</span>
+          <Link href={`/${locale}`} aria-label="Yonda" className="focus-ring inline-block">
+            <LogoHorizontal className="h-5 w-auto" />
           </Link>
           <p className="mt-3 text-[15px] leading-relaxed text-cream/80">{content.footer.tagline}</p>
           <p className="mt-4 text-sm leading-relaxed text-cream/70">
@@ -44,7 +45,7 @@ export function Footer({ locale, content }: { locale: Locale; content: SiteConte
           </a>
         </div>
 
-        <BrandStamp size={92} className="hidden shrink-0 opacity-90 md:block" />
+        <BrandStamp size={92} className="hidden shrink-0 text-cream opacity-90 md:block" />
       </div>
       <div className="border-t border-cream/15 px-5 py-4 text-center text-xs text-cream/60 sm:px-8">
         © {new Date().getFullYear()} {content.footer.rights}

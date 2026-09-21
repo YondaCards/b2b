@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { RoundLogo } from "./RoundLogo";
 
 export function BrandStamp({
   className = "",
@@ -9,17 +9,11 @@ export function BrandStamp({
 }) {
   return (
     <div
-      className={`relative animate-spin-slow ${className}`}
+      className={`animate-spin-slow ${className}`}
       style={{ width: size, height: size }}
       aria-hidden="true"
     >
-      <Image
-        src="/images/brand/logo-mark.png"
-        alt=""
-        fill
-        sizes={`${size}px`}
-        className="object-contain"
-      />
+      <RoundLogo className="h-full w-full" />
     </div>
   );
 }
