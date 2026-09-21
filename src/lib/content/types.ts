@@ -56,6 +56,7 @@ export type SiteContent = {
   about: {
     heading: string;
     paragraphs: string[];
+    instagramCta: string;
   };
   hero: {
     kicker: string;

@@ -6,7 +6,7 @@ export function Reveal({ content }: { content: SiteContent }) {
     <section className="bg-rust py-20 text-cream sm:py-28">
       <Container>
         <div className="max-w-2xl">
-          <h2 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+          <h2 className="font-display text-2xl font-bold leading-snug tracking-tight sm:text-3xl">
             {content.reveal.heading}
           </h2>
           <p className="mt-5 max-w-md text-[17px] leading-relaxed text-cream/85">{content.reveal.body}</p>
