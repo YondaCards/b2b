@@ -54,23 +54,23 @@ export function Hero({ locale, content }: { locale: Locale; content: SiteContent
           />
 
           <PhotoCard
-            src="/images/cases/marakanda-necklace.png"
+            src="/images/cases/marakanda-hero.jpg"
             alt="Открытка Marakanda"
             className="left-2 top-6 h-56 w-44 -rotate-6"
           />
           <PhotoCard
-            src="/images/cases/bika-card.png"
+            src="/images/cases/bika-hero.jpg"
             alt="Открытка Bika Bakery"
             className="left-40 top-0 h-52 w-44 rotate-3"
           />
           <PhotoCard
-            src="/images/cases/pipls-portraits.png"
+            src="/images/cases/pipls-portrait.jpg"
             alt="Кампания PIPLS"
             className="left-16 top-52 h-48 w-60 rotate-2"
             objectPosition="left"
           />
           <PhotoCard
-            src="/images/cases/qanot-sharq-cards.png"
+            src="/images/cases/qanot-sharq-hero.jpg"
             alt="Открытка Qanot Sharq"
             className="-right-2 top-64 h-40 w-48 -rotate-3"
           />

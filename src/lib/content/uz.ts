@@ -68,7 +68,7 @@ export const uz: SiteContent = {
       title: "Stories'ga tushib qoladigan mavsumiy stakan dizaynlari",
       oneLiner: "14-fevral kampaniyasida 700–800 dona Amore ichimligi sotildi",
       stat: "Kampaniya davomida 700–800 ichimlik",
-      heroImage: { src: "/images/cases/pipls-bouquet.png", alt: "Lola gulchambaridagi PIPLS stakanlari" },
+      heroImage: { src: "/images/cases/pipls-hero.jpg", alt: "Valentine's Season osma yuraklari" },
       size: "wide",
       task:
         "Bahor davri uchun vizual kontseptsiyalar ishlab chiqish: stakan dizayni, 14-fevral va 8-mart kampaniyalari.",
@@ -87,9 +87,10 @@ export const uz: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/pipls-bouquet.png", alt: "Lola gulchambaridagi PIPLS stakanlari" },
-        { src: "/images/cases/pipls-valentine-banner.png", alt: "Valentine's Season manjet dizayni" },
-        { src: "/images/cases/pipls-portraits.png", alt: "Valentine's Season kampaniyasi fotosurati" },
+        { src: "/images/cases/pipls-1.jpg", alt: "Qo'ldagi PIPLS Valentine's Season stakanlari" },
+        { src: "/images/cases/pipls-2.jpg", alt: "8-mart uchun Girls Choice dizayni" },
+        { src: "/images/cases/pipls-3.jpg", alt: "Bino fasadidagi PIPLS bilbordi" },
+        { src: "/images/cases/pipls-4.jpg", alt: "Bahorgi lolali PIPLS stakani" },
       ],
       testimonial: {
         quote:
@@ -103,7 +104,7 @@ export const uz: SiteContent = {
       client: "Bika Bakery",
       title: "Farishta-otkritka va qahva stakanlari uchun manjetlar",
       oneLiner: "Mahsulot shunchaki yorliq emas, syujetning bir qismiga aylangan otkritka",
-      heroImage: { src: "/images/cases/bika-card.png", alt: "Farishtali Bika Bakery otkritkasi" },
+      heroImage: { src: "/images/cases/bika-hero.jpg", alt: "Farishtali Bika Bakery otkritkasi" },
       size: "square",
       task: "Mijoz belgilagan shakl asosida 14-fevralga otkritka yaratish — yurak o'rniga bulut.",
       sections: [
@@ -121,8 +122,8 @@ export const uz: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/bika-card.png", alt: "Farishtali Bika Bakery otkritkasi" },
-        { src: "/images/cases/bika-coffee.png", alt: "Bika Bakery stakanlaridagi manjetlar" },
+        { src: "/images/cases/bika-hero.jpg", alt: "Farishtali Bika Bakery otkritkasi" },
+        { src: "/images/cases/bika-1.jpg", alt: "Bika Bakery stakanlaridagi manjetlar" },
       ],
     },
     {
@@ -130,7 +131,7 @@ export const uz: SiteContent = {
       client: "April 21 / Teplo Autumn Fest",
       title: "Festival uchun pop-up zona dizayni va merch",
       oneLiner: "Stikerpakdan butun zonaning vizual bezatilishigacha",
-      heroImage: { src: "/images/cases/teplo-booth.png", alt: "Teplo Autumn Fest'dagi April 21 pop-up zonasi" },
+      heroImage: { src: "/images/cases/teplo-hero.jpg", alt: "Teplo Autumn Festdagi April 21 pop-up zonasi" },
       size: "tall",
       task: "Teplo Fest'dagi pop-up zona uchun vizual bezak, kepkalar uchun print va stikerpak yaratish.",
       sections: [
@@ -144,7 +145,9 @@ export const uz: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/teplo-booth.png", alt: "Teplo Autumn Fest'dagi April 21 pop-up zonasi" },
+        { src: "/images/cases/teplo-1.jpg", alt: "Daraxtlar orasidagi April 21 pop-up zonasi" },
+        { src: "/images/cases/teplo-2.jpg", alt: "April 21 printli kepka" },
+        { src: "/images/cases/teplo-3.jpg", alt: "April 21 pop-up zonasi yonidagi festival mehmoni" },
       ],
       testimonial: {
         quote:
@@ -158,7 +161,7 @@ export const uz: SiteContent = {
       client: "Marakanda Jewelry",
       title: "Zargarlik bahorgi kolleksiyasi uchun otkritkalar",
       oneLiner: "Darrov ishonilmagan ikkinchi kontseptsiya aynan «o'sha» bo'lib chiqdi",
-      heroImage: { src: "/images/cases/marakanda-necklace.png", alt: "Nilufar gullari bilan Marakanda otkritkasi" },
+      heroImage: { src: "/images/cases/marakanda-hero.jpg", alt: "Nilufarli Marakanda otkritkasi" },
       size: "wide",
       task: "Zargarlik buyumlari bahorgi kolleksiyasi uchun otkritkalar yaratish — xarid vaqtida sovg'a yoki qo'shimcha mahsulot sifatida.",
       sections: [
@@ -176,9 +179,10 @@ export const uz: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/marakanda-earrings.png", alt: "Marakanda sirg'alari illyustratsiyasi" },
-        { src: "/images/cases/marakanda-necklace.png", alt: "Nilufar gullari bilan Marakanda otkritkasi" },
-        { src: "/images/cases/marakanda-pattern.png", alt: "Marakanda naqshli patternlari" },
+        { src: "/images/cases/marakanda-1.jpg", alt: "Marakanda sirg'alarining kalla gulli illyustratsiyasi" },
+        { src: "/images/cases/marakanda-2.jpg", alt: "Ninachilar tasvirlangan Marakanda otkritkasi" },
+        { src: "/images/cases/marakanda-3.jpg", alt: "Naqshli Marakanda patterni" },
+        { src: "/images/cases/marakanda-4.jpg", alt: "Do'kon javonidagi Marakanda otkritkalari" },
       ],
       testimonial: {
         quote:
@@ -192,7 +196,7 @@ export const uz: SiteContent = {
       client: "Qanot Sharq",
       title: "Aviakompaniya hamkorlari uchun yangi yil otkritkasi",
       oneLiner: "Bayramga «kiyintirilgan» samolyot dumi — oddiy va aniq tanilarli",
-      heroImage: { src: "/images/cases/qanot-sharq-cards.png", alt: "Qanot Sharq yangi yil otkritkasi" },
+      heroImage: { src: "/images/cases/qanot-sharq-hero.jpg", alt: "Bantli Qanot Sharq yangi yil otkritkasi" },
       size: "square",
       task: "Aviakompaniya hamkorlari uchun yangi yil otkritkasini yaratish.",
       sections: [
@@ -206,7 +210,8 @@ export const uz: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/qanot-sharq-cards.png", alt: "Qanot Sharq yangi yil otkritkasi" },
+        { src: "/images/cases/qanot-sharq-1.jpg", alt: "Hamkorlar uchun Qanot Sharq maktub-otkritkasi" },
+        { src: "/images/cases/qanot-sharq-hero.jpg", alt: "Bantli Qanot Sharq yangi yil otkritkasi" },
       ],
       testimonial: {
         quote:
@@ -214,6 +219,36 @@ export const uz: SiteContent = {
         name: "Zarina",
         role: "Qanot Sharq marketing menejeri",
       },
+    },
+    {
+      slug: "kontent-sosedi",
+      client: "Hamjamiyat «Контент соседи»",
+      title: "Hamjamiyatning birinchi ma'ruzasi uchun otkritkalar va yozuv blanklari",
+      oneLiner: "Turli tilaklar bilan 42 ta otkritka va 10 xil dizayn — deyarli har bir mehmondan storis",
+      stat: "42 otkritka · 10 dizayn",
+      heroImage: { src: "/images/cases/kontent-sosedi-hero.jpg", alt: "Ma'ruza mehmonlari uchun stoldagi «Контент соседи» otkritkalari" },
+      size: "square",
+      task: "Hamjamiyatdagi ma'ruza mehmonlari uchun sovg'alar va yozuvlar uchun blanklar yaratish.",
+      sections: [
+        {
+          heading: "Suratga olgisi keladigan uchrashuv",
+          body: "Hamjamiyat boshlovchi blogerlar bilan birinchi uchrashuvini o'tkazdi, unda Seva Hakim blogging haqida ma'ruza qildi. Uchrashuvni estetik qilish, yodda qoladigan sovg'alar qoldirish va mehmonlar albatta uchrashuvni suratga olib, storisga joylashi uchun hamma narsani yorqin va chiroyli qilishga to'g'ri keldi.",
+        },
+        {
+          heading: "Palitra va tilaklar",
+          body: "Rang palitrasini tanladik va boshlovchi kreatorlar uchun tilaklar yozilgan otkritkalar tayyorladik. Turli matnli 42 ta otkritka va yanada yorqinroq ko'rinishi uchun 10 xil dizayn yaratildi.",
+        },
+        {
+          heading: "Natija",
+          body: "Uchrashuv ishtirokchilarining deyarli har biridan yaxshi storis belgilari yig'dik va ishimizga ko'plab iltifotlar oldik.",
+        },
+      ],
+      gallery: [
+        { src: "/images/cases/kontent-sosedi-1.jpg", alt: "Uchrashuv mehmonining qo'lidagi otkritkalar" },
+        { src: "/images/cases/kontent-sosedi-2.jpg", alt: "Stoldagi yozuvlar uchun blanklar" },
+        { src: "/images/cases/kontent-sosedi-3.jpg", alt: "Ishtirokchining otkritkali storisi" },
+        { src: "/images/cases/kontent-sosedi-4.jpg", alt: "Ishtirokchining sovg'a-otkritkalar haqidagi storisi" },
+      ],
     },
   ],
   packages: {

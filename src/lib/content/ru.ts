@@ -68,7 +68,7 @@ export const ru: SiteContent = {
       title: "Сезонные капсулы на стаканах, которые попадают в сторис",
       oneLiner: "700–800 напитков Amore за одну кампанию к 14 февраля",
       stat: "700–800 напитков за кампанию",
-      heroImage: { src: "/images/cases/pipls-bouquet.png", alt: "Стаканы PIPLS в букете тюльпанов" },
+      heroImage: { src: "/images/cases/pipls-hero.jpg", alt: "Подвесные сердца Valentine's Season" },
       size: "wide",
       task:
         "Разработать визуальные концепции на весенний период: дизайн стаканов, кампании к 14 февраля и 8 марта.",
@@ -87,9 +87,10 @@ export const ru: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/pipls-bouquet.png", alt: "Стаканы PIPLS в букете тюльпанов" },
-        { src: "/images/cases/pipls-valentine-banner.png", alt: "Дизайн манжеты Valentine's Season" },
-        { src: "/images/cases/pipls-portraits.png", alt: "Фотосъёмка кампании Valentine's Season" },
+        { src: "/images/cases/pipls-1.jpg", alt: "Стаканы PIPLS Valentine's Season в руках" },
+        { src: "/images/cases/pipls-2.jpg", alt: "Дизайн Girls Choice к 8 марта" },
+        { src: "/images/cases/pipls-3.jpg", alt: "Билборд PIPLS на фасаде здания" },
+        { src: "/images/cases/pipls-4.jpg", alt: "Стакан PIPLS с весенними тюльпанами" },
       ],
       testimonial: {
         quote:
@@ -103,7 +104,7 @@ export const ru: SiteContent = {
       client: "Bika Bakery",
       title: "Валентинка-ангел и манжеты для стаканчиков кофе",
       oneLiner: "Открытка, где продукт бренда становится частью сюжета, а не наклейкой на нём",
-      heroImage: { src: "/images/cases/bika-card.png", alt: "Открытка Bika Bakery с ангелом" },
+      heroImage: { src: "/images/cases/bika-hero.jpg", alt: "Открытка Bika Bakery с ангелом" },
       size: "square",
       task: "Создать валентинку к 14 февраля на основе заданной клиентом формы — облака вместо сердца.",
       sections: [
@@ -121,8 +122,8 @@ export const ru: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/bika-card.png", alt: "Открытка Bika Bakery с ангелом" },
-        { src: "/images/cases/bika-coffee.png", alt: "Манжеты на стаканах Bika Bakery" },
+        { src: "/images/cases/bika-hero.jpg", alt: "Открытка Bika Bakery с ангелом" },
+        { src: "/images/cases/bika-1.jpg", alt: "Манжеты на стаканах Bika Bakery" },
       ],
     },
     {
@@ -130,7 +131,7 @@ export const ru: SiteContent = {
       client: "April 21 / Teplo Autumn Fest",
       title: "Оформление pop-up зоны и мерч для фестиваля",
       oneLiner: "От стикерпака до полного визуального оформления зоны на фестивале",
-      heroImage: { src: "/images/cases/teplo-booth.png", alt: "Pop-up зона April 21 на Teplo Autumn Fest" },
+      heroImage: { src: "/images/cases/teplo-hero.jpg", alt: "Pop-up зона April 21 на Teplo Autumn Fest" },
       size: "tall",
       task: "Создать визуальное оформление для pop-up зоны на Teplo Fest, принты для кепок и стикерпак.",
       sections: [
@@ -144,7 +145,9 @@ export const ru: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/teplo-booth.png", alt: "Pop-up зона April 21 на Teplo Autumn Fest" },
+        { src: "/images/cases/teplo-1.jpg", alt: "Pop-up зона April 21 среди деревьев" },
+        { src: "/images/cases/teplo-2.jpg", alt: "Кепка с принтом April 21" },
+        { src: "/images/cases/teplo-3.jpg", alt: "Гостья фестиваля у pop-up зоны April 21" },
       ],
       testimonial: {
         quote:
@@ -158,7 +161,7 @@ export const ru: SiteContent = {
       client: "Marakanda Jewelry",
       title: "Открытки к весенней коллекции украшений",
       oneLiner: "Вторая концепция, в которую поверили не сразу, оказалась той самой",
-      heroImage: { src: "/images/cases/marakanda-necklace.png", alt: "Открытка Marakanda с лилией" },
+      heroImage: { src: "/images/cases/marakanda-hero.jpg", alt: "Открытка Marakanda с лилией" },
       size: "wide",
       task: "Создать открытки к весенней коллекции украшений — как подарок при покупке или дополнительный продукт.",
       sections: [
@@ -176,9 +179,10 @@ export const ru: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/marakanda-earrings.png", alt: "Иллюстрация серёг Marakanda" },
-        { src: "/images/cases/marakanda-necklace.png", alt: "Открытка Marakanda с лилией" },
-        { src: "/images/cases/marakanda-pattern.png", alt: "Паттерны Marakanda с орнаментом" },
+        { src: "/images/cases/marakanda-1.jpg", alt: "Иллюстрация серёг Marakanda с каллой" },
+        { src: "/images/cases/marakanda-2.jpg", alt: "Открытка Marakanda со стрекозами" },
+        { src: "/images/cases/marakanda-3.jpg", alt: "Паттерн Marakanda с орнаментом" },
+        { src: "/images/cases/marakanda-4.jpg", alt: "Открытки Marakanda на полке магазина" },
       ],
       testimonial: {
         quote:
@@ -192,7 +196,7 @@ export const ru: SiteContent = {
       client: "Qanot Sharq",
       title: "Новогодняя открытка для партнёров авиакомпании",
       oneLiner: "Хвост самолёта, наряженный к празднику — просто и точно узнаваемо",
-      heroImage: { src: "/images/cases/qanot-sharq-cards.png", alt: "Новогодняя открытка Qanot Sharq" },
+      heroImage: { src: "/images/cases/qanot-sharq-hero.jpg", alt: "Новогодняя открытка Qanot Sharq с бантом" },
       size: "square",
       task: "Создать новогоднюю открытку для партнёров авиакомпании.",
       sections: [
@@ -206,7 +210,8 @@ export const ru: SiteContent = {
         },
       ],
       gallery: [
-        { src: "/images/cases/qanot-sharq-cards.png", alt: "Новогодняя открытка Qanot Sharq" },
+        { src: "/images/cases/qanot-sharq-1.jpg", alt: "Письмо-открытка Qanot Sharq для партнёров" },
+        { src: "/images/cases/qanot-sharq-hero.jpg", alt: "Новогодняя открытка Qanot Sharq с бантом" },
       ],
       testimonial: {
         quote:
@@ -214,6 +219,36 @@ export const ru: SiteContent = {
         name: "Зарина",
         role: "Marketing Manager Qanot Sharq",
       },
+    },
+    {
+      slug: "kontent-sosedi",
+      client: "Сообщество «Контент соседи»",
+      title: "Открытки и бланки для заметок на первой лекции сообщества",
+      oneLiner: "42 открытки с разными напутствиями и 10 дизайнов — и сторис почти от каждой гостьи",
+      stat: "42 открытки · 10 дизайнов",
+      heroImage: { src: "/images/cases/kontent-sosedi-hero.jpg", alt: "Открытки для гостей лекции «Контент соседи» на столе" },
+      size: "square",
+      task: "Создать подарки и бланки для заметок для гостей лекции в сообществе.",
+      sections: [
+        {
+          heading: "Встреча, которую хотелось снять",
+          body: "Сообщество проводило свою первую встречу с начинающими блогерами, где Сева Хаким проводила лекцию на тему блоггинга. Важно было сделать встречу эстетичной, оставить запоминающиеся подарки и сделать так, чтобы гости обязательно сфотографировали встречу и выложили к себе в сторис — для этого пришлось сделать ярко и красиво.",
+        },
+        {
+          heading: "Палитра и напутствия",
+          body: "Выбрали цветовую палитру и подготовили открытки с напутствиями для начинающих креаторов. Было сделано 42 разные открытки с разным текстом и 10 разных дизайнов — чтобы открытки выглядели ещё ярче.",
+        },
+        {
+          heading: "Результат",
+          body: "Мы собрали хорошие отметки в сторис почти от каждой участницы встречи и получили много комплиментов своей работе.",
+        },
+      ],
+      gallery: [
+        { src: "/images/cases/kontent-sosedi-1.jpg", alt: "Открытки в руках гостьи встречи" },
+        { src: "/images/cases/kontent-sosedi-2.jpg", alt: "Бланки для заметок на столе" },
+        { src: "/images/cases/kontent-sosedi-3.jpg", alt: "Сторис участницы с открыткой" },
+        { src: "/images/cases/kontent-sosedi-4.jpg", alt: "Сторис участницы с подарками-открытками" },
+      ],
     },
   ],
   packages: {
