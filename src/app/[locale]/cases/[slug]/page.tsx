@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { isLocale, locales, type Locale } from "@/lib/i18n/locales";
 import { getContent } from "@/lib/content";
 import { Container } from "@/components/Container";
+import { withBasePath } from "@/lib/basePath";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) => {
@@ -70,7 +71,7 @@ export default async function CasePage({
 
         <div className="relative mt-10 aspect-[16/9] w-full overflow-hidden sm:aspect-[21/9]">
           <Image
-            src={caseStudy.heroImage.src}
+            src={withBasePath(caseStudy.heroImage.src)}
             alt={caseStudy.heroImage.alt}
             fill
             priority
@@ -100,7 +101,7 @@ export default async function CasePage({
             <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
               {caseStudy.gallery.map((img) => (
                 <div key={img.src} className="relative aspect-[4/5] overflow-hidden rounded-2xl">
-                  <Image src={img.src} alt={img.alt} fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
+                  <Image src={withBasePath(img.src)} alt={img.alt} fill sizes="(min-width: 640px) 50vw, 100vw" className="object-cover" />
                 </div>
               ))}
             </div>

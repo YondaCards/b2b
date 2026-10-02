@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/basePath";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n/locales";
 import type { SiteContent } from "@/lib/content/types";
@@ -95,7 +96,7 @@ function PhotoCard({
     <div
       className={`absolute overflow-hidden rounded-2xl border-4 border-paper bg-paper shadow-[0_18px_38px_-14px_rgba(58,36,28,0.35)] ${className}`}
     >
-      <Image src={src} alt={alt} fill sizes="240px" style={{ objectFit: "cover", objectPosition }} />
+      <Image src={withBasePath(src)} alt={alt} fill sizes="240px" style={{ objectFit: "cover", objectPosition }} />
     </div>
   );
 }

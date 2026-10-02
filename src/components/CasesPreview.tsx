@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Locale } from "@/lib/i18n/locales";
 import type { SiteContent, CaseStudy } from "@/lib/content/types";
 import { Container } from "./Container";
+import { withBasePath } from "@/lib/basePath";
 
 const sizeClasses: Record<CaseStudy["size"], string> = {
   wide: "aspect-[16/10] sm:aspect-auto sm:col-span-4 sm:h-full",
@@ -31,7 +32,7 @@ export function CasesPreview({ locale, content }: { locale: Locale; content: Sit
               className={`focus-ring group relative block overflow-hidden rounded-3xl bg-ink ${sizeClasses[c.size]}`}
             >
               <Image
-                src={c.heroImage.src}
+                src={withBasePath(c.heroImage.src)}
                 alt={c.heroImage.alt}
                 fill
                 sizes="(min-width: 640px) 50vw, 100vw"
